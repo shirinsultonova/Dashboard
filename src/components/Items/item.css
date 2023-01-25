@@ -1,0 +1,24 @@
+.site-nav-item {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 32px;
+}
+.site-nav-item-active {
+	border-left: 3px solid #dde2ff;
+	background-color: #9fa2b414;
+}
+.site-nav-item:nth-child(7) {
+	padding-top: 36px;
+	border-top: 1px solid #dfe0eb0f;
+}
+.site-nav-text {
+	font-size: 16px;
+	line-height: 20px;
+
+	letter-spacing: 0.2px;
+	color: #a4a6b3;
+}
+.site-nav-item:hover {
+	border-left: 3px solid #dde2ff;
+	background-color: #9fa2b414;
+}

@@ -1,0 +1,26 @@
+.diogram-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.diogram-item:not(:last-child){
+    border-bottom: 1px solid #dfe0eb;
+}
+.diogram-item-desc{
+    margin-bottom: 6px;
+    font-family: "Mulish";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9fa2b4;
+}
+.diogram-item-text{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #252733;
+}

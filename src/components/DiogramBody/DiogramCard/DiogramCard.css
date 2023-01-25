@@ -1,0 +1,52 @@
+.diogram-card-wrapper{
+    max-width: 1122px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #dfe0eb;
+}
+.diogram-inner{
+    padding: 31px;
+}
+.diogram-inner-top{
+    margin-bottom: 30px;
+}
+.diogram-titles{
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;    
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+.diogram-time{
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9fa2b4;
+}
+.diogram-day-text{
+    font-family: "Mulish";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9fa2b4;
+}
+.diogram-day-text::before{
+    display: inline-block;
+    width: 16px;
+    height: 2px;
+    margin-right: 8px;
+    content: "";
+}
+.diogram-day-text-today{
+    margin-right: 32px;
+}
+.diogram-day-text-today::before{
+    background-color: #3751ff;
+}
+.diogram-day-text-yesterday::before{
+    background-color: #dfe0eb;
+}

@@ -1,0 +1,35 @@
+.main-item {
+    max-width: 258px;
+    width: 100%;
+    padding: 24px 32px;
+    background-color: #FFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.main-item:not(:last-child) {
+    margin-right: 30px;
+}
+.main-item:hover .main-item-title, .main-item:hover .main-item-num {
+    color: #3751FF;
+} 
+.main-item:hover {
+    border: 1px solid #3751FF;
+}
+.main-item-title {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin-bottom: 12px;
+    color: #9fa2b4;
+}
+.main-item-num {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #252733;
+}
